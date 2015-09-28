@@ -1,0 +1,15 @@
+﻿<Properties>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="C:\Extra\mpFormulaTDM\mpFormulaPy\Source\MpMath\mpFormulaVB\mpFormulaCalculus.vb" />
+    <Element value="C:\Extra\mpFormulaTDM\mpFormulaPy\Source\MpMath\mpFormulaVB\mpFormulaMpfMat.vb" />
+    <Element value="C:\Extra\mpFormulaTDM\mpFormulaPy\Source\MpMath\mpFormulaVB\mpFormulaMpcMat.vb" />
+    <Element value="C:\Extra\mpFormulaTDM\mpFormulaPy\Source\MpMath\mpFormulaVB\mpFormulaMpf.vb" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <fileNames value="" />
+      <runOnBuild value="False" />
+    </Properties>
+  </Properties>
+</Properties>

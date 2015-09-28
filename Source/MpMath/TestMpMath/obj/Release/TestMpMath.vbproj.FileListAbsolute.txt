@@ -1,0 +1,6 @@
+I:\Data\mpFormulaTDM\mpFormulaPy\mpNum\TestMpMath.exe.config
+C:\Extra\mpFormulaTDM\mpFormulaPy\Source\MpMath\TestMpMath\obj\Release\TestMpMath.vbprojResolveAssemblyReference.cache
+C:\Extra\mpFormulaTDM\mpFormulaPy\mpNum\TestMpMath.exe.config
+C:\Extra\mpFormulaTDM\mpFormulaPy\mpNum\TestMpMath.exe
+C:\Extra\mpFormulaTDM\mpFormulaPy\Source\MpMath\TestMpMath\obj\Release\TestMpMath.exe
+I:\Data\mpFormulaTDM\mpFormulaPy\Source\MpMath\TestMpMath\obj\Release\TestMpMath.exe

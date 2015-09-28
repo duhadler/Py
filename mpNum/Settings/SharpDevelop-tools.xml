@@ -12,9 +12,9 @@
   <TOOL>
     <INITIALDIRECTORY>
     </INITIALDIRECTORY>
-    <ARGUMENTS>${StartupPath}\..\..\Source\Manual\mpFormulaPy.tex  --master --start-always</ARGUMENTS>
-    <COMMAND>${StartupPath}\..\..\..\ExternalTools\texstudio2.8.8\texstudio.exe</COMMAND>
-    <MENUCOMMAND>TexStudio (mpFormulaPy Manual)</MENUCOMMAND>
+    <ARGUMENTS>-X:Frames -X:ColorfulConsole</ARGUMENTS>
+    <COMMAND>${StartupPath}\..\AddIns\BackendBindings\PythonBinding\ipy.exe</COMMAND>
+    <MENUCOMMAND>IronPython Command Line 32 bit</MENUCOMMAND>
     <PROMPTFORARGUMENTS>False</PROMPTFORARGUMENTS>
     <USEOUTPUTPAD>False</USEOUTPUTPAD>
   </TOOL>
@@ -43,6 +43,26 @@
     </INITIALDIRECTORY>
     <ARGUMENTS>
     </ARGUMENTS>
+    <COMMAND>${StartupPath}\..\..\GUI\FileViewer.exe</COMMAND>
+    <MENUCOMMAND>File Viewer</MENUCOMMAND>
+    <PROMPTFORARGUMENTS>False</PROMPTFORARGUMENTS>
+    <USEOUTPUTPAD>False</USEOUTPUTPAD>
+  </TOOL>
+  <TOOL>
+    <INITIALDIRECTORY>
+    </INITIALDIRECTORY>
+    <ARGUMENTS>
+    </ARGUMENTS>
+    <COMMAND>${StartupPath}\..\..\GUI\ChartViewer.exe</COMMAND>
+    <MENUCOMMAND>Chart Viewer</MENUCOMMAND>
+    <PROMPTFORARGUMENTS>False</PROMPTFORARGUMENTS>
+    <USEOUTPUTPAD>False</USEOUTPUTPAD>
+  </TOOL>
+  <TOOL>
+    <INITIALDIRECTORY>
+    </INITIALDIRECTORY>
+    <ARGUMENTS>
+    </ARGUMENTS>
     <COMMAND>${StartupPath}\..\..\GUI\WpfInWinForms.exe</COMMAND>
     <MENUCOMMAND>3D Function Viewer</MENUCOMMAND>
     <PROMPTFORARGUMENTS>False</PROMPTFORARGUMENTS>
@@ -51,48 +71,10 @@
   <TOOL>
     <INITIALDIRECTORY>
     </INITIALDIRECTORY>
-    <ARGUMENTS>-X:Frames -X:ColorfulConsole</ARGUMENTS>
-    <COMMAND>${StartupPath}\..\AddIns\BackendBindings\PythonBinding\ipy.exe</COMMAND>
-    <MENUCOMMAND>IronPython Command Line 32 bit</MENUCOMMAND>
-    <PROMPTFORARGUMENTS>False</PROMPTFORARGUMENTS>
-    <USEOUTPUTPAD>False</USEOUTPUTPAD>
-  </TOOL>
-  <TOOL>
-    <INITIALDIRECTORY>
-    </INITIALDIRECTORY>
-    <ARGUMENTS>-X:Frames -X:ColorfulConsole</ARGUMENTS>
-    <COMMAND>${StartupPath}\..\AddIns\BackendBindings\PythonBinding\ipy64.exe</COMMAND>
-    <MENUCOMMAND>IronPython Command Line 64 bit</MENUCOMMAND>
-    <PROMPTFORARGUMENTS>False</PROMPTFORARGUMENTS>
-    <USEOUTPUTPAD>False</USEOUTPUTPAD>
-  </TOOL>
-  <TOOL>
-    <INITIALDIRECTORY>
-    </INITIALDIRECTORY>
     <ARGUMENTS>
     </ARGUMENTS>
-    <COMMAND>${StartupPath}\..\..\..\..\WinPython-32bit-3.3.5.0\Spyder.exe</COMMAND>
-    <MENUCOMMAND>CPython 32 bit</MENUCOMMAND>
-    <PROMPTFORARGUMENTS>False</PROMPTFORARGUMENTS>
-    <USEOUTPUTPAD>False</USEOUTPUTPAD>
-  </TOOL>
-  <TOOL>
-    <INITIALDIRECTORY>
-    </INITIALDIRECTORY>
-    <ARGUMENTS>
-    </ARGUMENTS>
-    <COMMAND>${StartupPath}\..\..\..\..\R\RStudio\bin\rstudio.exe</COMMAND>
-    <MENUCOMMAND>R Studio 32 bit</MENUCOMMAND>
-    <PROMPTFORARGUMENTS>False</PROMPTFORARGUMENTS>
-    <USEOUTPUTPAD>False</USEOUTPUTPAD>
-  </TOOL>
-  <TOOL>
-    <INITIALDIRECTORY>
-    </INITIALDIRECTORY>
-    <ARGUMENTS>
-    </ARGUMENTS>
-    <COMMAND>${StartupPath}\..\..\..\..\LibreOfficePortable\LibreOfficePortable.exe</COMMAND>
-    <MENUCOMMAND>LibreOffice</MENUCOMMAND>
+    <COMMAND>${StartupPath}\..\..\GUI\HTMLViewer.exe</COMMAND>
+    <MENUCOMMAND>HTML Viewer</MENUCOMMAND>
     <PROMPTFORARGUMENTS>False</PROMPTFORARGUMENTS>
     <USEOUTPUTPAD>False</USEOUTPUTPAD>
   </TOOL>
@@ -103,6 +85,102 @@
     </ARGUMENTS>
     <COMMAND>${StartupPath}\..\..\</COMMAND>
     <MENUCOMMAND>Open Root Directory</MENUCOMMAND>
+    <PROMPTFORARGUMENTS>False</PROMPTFORARGUMENTS>
+    <USEOUTPUTPAD>False</USEOUTPUTPAD>
+  </TOOL>
+  <TOOL>
+    <INITIALDIRECTORY>
+    </INITIALDIRECTORY>
+    <ARGUMENTS>
+    </ARGUMENTS>
+    <COMMAND>${StartupPath}\..\..\GUI\StartNumExp.exe</COMMAND>
+    <MENUCOMMAND>Numerical Explorations</MENUCOMMAND>
+    <PROMPTFORARGUMENTS>False</PROMPTFORARGUMENTS>
+    <USEOUTPUTPAD>False</USEOUTPUTPAD>
+  </TOOL>
+  <TOOL>
+    <INITIALDIRECTORY>
+    </INITIALDIRECTORY>
+    <ARGUMENTS>
+    </ARGUMENTS>
+    <COMMAND>a.exe</COMMAND>
+    <MENUCOMMAND>==== Installation Required:  ====</MENUCOMMAND>
+    <PROMPTFORARGUMENTS>False</PROMPTFORARGUMENTS>
+    <USEOUTPUTPAD>False</USEOUTPUTPAD>
+  </TOOL>
+  <TOOL>
+    <INITIALDIRECTORY>
+    </INITIALDIRECTORY>
+    <ARGUMENTS>${StartupPath}\..\..\Source\Manual\mpFormulaPy.tex  --master --start-always</ARGUMENTS>
+    <COMMAND>${StartupPath}\..\..\..\ExternalTools\texstudio2.8.8\texstudio.exe</COMMAND>
+    <MENUCOMMAND>TexStudio (mpFormulaPy Manual)</MENUCOMMAND>
+    <PROMPTFORARGUMENTS>False</PROMPTFORARGUMENTS>
+    <USEOUTPUTPAD>False</USEOUTPUTPAD>
+  </TOOL>
+  <TOOL>
+    <INITIALDIRECTORY>${StartupPath}\..\..\..\mpFormulaCPython\Win32</INITIALDIRECTORY>
+    <ARGUMENTS>
+    </ARGUMENTS>
+    <COMMAND>${StartupPath}\..\..\..\mpFormulaCPython\Win32\StartPyScripter.bat</COMMAND>
+    <MENUCOMMAND>PyScripter 32 bit</MENUCOMMAND>
+    <PROMPTFORARGUMENTS>False</PROMPTFORARGUMENTS>
+    <USEOUTPUTPAD>False</USEOUTPUTPAD>
+  </TOOL>
+  <TOOL>
+    <INITIALDIRECTORY>
+    </INITIALDIRECTORY>
+    <ARGUMENTS>${StartupPath}\..\..\..\mpFormulaCPython\Source\Manual\mpFormulaPy.tex  --master --start-always</ARGUMENTS>
+    <COMMAND>${StartupPath}\..\..\..\ExternalTools\texstudio2.8.8\texstudio.exe</COMMAND>
+    <MENUCOMMAND>TexStudio (mpFormulaCPython)</MENUCOMMAND>
+    <PROMPTFORARGUMENTS>False</PROMPTFORARGUMENTS>
+    <USEOUTPUTPAD>False</USEOUTPUTPAD>
+  </TOOL>
+  <TOOL>
+    <INITIALDIRECTORY>
+    </INITIALDIRECTORY>
+    <ARGUMENTS>
+    </ARGUMENTS>
+    <COMMAND>${StartupPath}\..\..\..\..\PortableApps\WinPython-32bit-3.3.5.0\Spyder.exe</COMMAND>
+    <MENUCOMMAND>WinPython 32 bit</MENUCOMMAND>
+    <PROMPTFORARGUMENTS>False</PROMPTFORARGUMENTS>
+    <USEOUTPUTPAD>False</USEOUTPUTPAD>
+  </TOOL>
+  <TOOL>
+    <INITIALDIRECTORY>
+    </INITIALDIRECTORY>
+    <ARGUMENTS>
+    </ARGUMENTS>
+    <COMMAND>${StartupPath}\..\..\..\..\PortableApps\R\RStudio\bin\rstudio.exe</COMMAND>
+    <MENUCOMMAND>R Studio 32 bit</MENUCOMMAND>
+    <PROMPTFORARGUMENTS>False</PROMPTFORARGUMENTS>
+    <USEOUTPUTPAD>False</USEOUTPUTPAD>
+  </TOOL>
+  <TOOL>
+    <INITIALDIRECTORY>
+    </INITIALDIRECTORY>
+    <ARGUMENTS> --accept="socket,host=localhost,port=2002;urp;"</ARGUMENTS>
+    <COMMAND>${StartupPath}\..\..\..\..\PortableApps\LibreOfficePortable\App\libreoffice\program\soffice.exe</COMMAND>
+    <MENUCOMMAND>LibreOffice Portable (with socket)</MENUCOMMAND>
+    <PROMPTFORARGUMENTS>False</PROMPTFORARGUMENTS>
+    <USEOUTPUTPAD>False</USEOUTPUTPAD>
+  </TOOL>
+  <TOOL>
+    <INITIALDIRECTORY>
+    </INITIALDIRECTORY>
+    <ARGUMENTS>
+    </ARGUMENTS>
+    <COMMAND>${StartupPath}\..\..\..\..\PortableApps\EclipsePortable\EclipsePortable.exe</COMMAND>
+    <MENUCOMMAND>Eclipse Portable</MENUCOMMAND>
+    <PROMPTFORARGUMENTS>False</PROMPTFORARGUMENTS>
+    <USEOUTPUTPAD>False</USEOUTPUTPAD>
+  </TOOL>
+  <TOOL>
+    <INITIALDIRECTORY>
+    </INITIALDIRECTORY>
+    <ARGUMENTS>
+    </ARGUMENTS>
+    <COMMAND>C:\Program Files (x86)\LibreOffice 4\program\soffice.exe</COMMAND>
+    <MENUCOMMAND>LibreOffice COM</MENUCOMMAND>
     <PROMPTFORARGUMENTS>False</PROMPTFORARGUMENTS>
     <USEOUTPUTPAD>False</USEOUTPUTPAD>
   </TOOL>
